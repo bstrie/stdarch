@@ -71,6 +71,8 @@ extern crate std_detect;
 #[path = "mod.rs"]
 mod core_arch;
 
+pub FOO: i32 = 42;
+
 pub use self::core_arch::arch;
 
 #[allow(unused_imports)]
